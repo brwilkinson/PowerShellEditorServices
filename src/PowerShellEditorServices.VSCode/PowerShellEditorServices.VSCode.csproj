@@ -20,4 +20,10 @@
     <ProjectReference Include="..\PowerShellEditorServices.Host\PowerShellEditorServices.Host.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="esprima" Version="1.0.0-beta-1202" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.10.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Web" Version="2.10.0" />
+  </ItemGroup>
+
 </Project>

@@ -13,6 +13,9 @@
     <DocumentationFile>bin\$(TargetFramework)\$(Configuration)\Microsoft.PowerShell.EditorServices.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="esprima" Version="1.0.0-beta-1202" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.10.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Web" Version="2.10.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
     <PackageReference Include="PowerShellStandard.Library" Version="5.1.0" PrivateAssets="All" />
     <PackageReference Include="UnixConsoleEcho" Version="0.1.0" />
